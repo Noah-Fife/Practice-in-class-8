@@ -9,7 +9,10 @@ name: Hello World
       branches:
         - main
 
+    workflow_dispatch:
+
   # Workflow / Jobs
+  
   jobs:
     hello:
       runs-on: ubuntu-latest
